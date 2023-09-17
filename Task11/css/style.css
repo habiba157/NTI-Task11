@@ -1,0 +1,33 @@
+#test {
+  width: 70%;
+  height: 600px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  margin: auto;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+#buttons {
+  position: relative;
+}
+#btnleft {
+  width: 10vh;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  background: rgb(224, 166, 79);
+  position: absolute;
+  left: 150px;
+}
+#btnright {
+  width: 10vh;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  background: rgb(224, 166, 79);
+  position: absolute;
+  right: 150px;
+}
